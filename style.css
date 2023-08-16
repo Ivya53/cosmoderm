@@ -78,6 +78,27 @@ section nav .icon i:hover{
     color: #fac031;
 }
 
+section nav .dropdown {
+    position: relative;
+}
+
+section nav .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    min-width: 200px;
+}
+
+section nav .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
 section .main{
     display: flex;
     align-items: center;
@@ -139,4 +160,12 @@ section .main_btn i{
 
 section .main_btn:hover i{
     transform: translateX(7px);
+}
+
+body .test text{
+    color: #3134fa;
+}
+
+body .test{
+    margin-left: 100px;
 }
