@@ -8,6 +8,7 @@
 html{
     scroll-behavior: smooth;
     align-self: baseline;
+    background-color: #f4eeea;
 }
 
 section{
@@ -136,7 +137,7 @@ section nav .dropdown:hover .dropdown-content {
 }
 
 .menu h1 span{
-    color: #fffccc;
+    color: #9A3B3B;
     margin-left: 15px;
     font-family: mv boli;
 }
@@ -145,7 +146,7 @@ section nav .dropdown:hover .dropdown-content {
     content: '';
     width: 100%;
     height: 2px;
-    background: #fffccc;
+    background: #746c01;
     display: block;
     position: relative;
     bottom: 15px;
@@ -157,6 +158,7 @@ section nav .dropdown:hover .dropdown-content {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 15px;
+
 }
 
 .menu .menu_box .menu_card{
@@ -165,6 +167,7 @@ section nav .dropdown:hover .dropdown-content {
     padding-top: 10px;
     margin-bottom: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    background-color: #F0BB62;
 }
 
 .menu .menu_box .menu_card .menu_image{
@@ -226,7 +229,7 @@ section nav .dropdown:hover .dropdown-content {
     text-align: center;
     margin: 10px auto 10px auto;
     font-size: 25px;
-    color: #fffccc;
+    color: #9A3B3B;
 }
 
 .menu .menu_box .menu_card .menu_info p{
@@ -252,8 +255,68 @@ section nav .dropdown:hover .dropdown-content {
     justify-content: center;
     text-decoration: none;
     color: white;
-    background: #000;
+    background: #9A3B3B;
     padding: 8px 10px;
     margin: 0 80px;
     transition: 0.3s;
 }
+
+/*Footer*/
+
+footer{
+    width: 100%;
+    padding: 30px 0 0 20px;
+    background: #102c14;
+    color: #ccc;
+  }
+  
+  footer .footer_main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  
+  footer .footer_main .footer_tag{
+    text-align: center;
+  }
+  
+  footer .footer_main .footer_tag h3{
+    margin-top: 40px;
+  }
+  
+  footer .footer_main .footer_tag a{
+    text-decoration: none;
+  }
+  
+  
+  footer .footer_main .footer_tag h2{
+    color: lightgreen;
+    margin-bottom: 25px;
+    font-size: 30px;
+  }
+  
+  footer .footer_main .footer_tag p{
+    margin: 10px 0;
+  }
+  
+  footer .footer_main .footer_tag i{
+    color: lightgreen;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  footer .footer_main .footer_tag i:hover{
+    color: #00bbff;
+  }
+  
+  footer .end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+  }
+  
+  footer .end span{
+    color: lightgreen;
+    margin-left: 10px;
+  }
+  
